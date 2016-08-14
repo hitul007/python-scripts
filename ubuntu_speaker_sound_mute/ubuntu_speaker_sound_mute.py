@@ -25,6 +25,7 @@ except socket.error, msg:
 
 days = ['monday', 'tuesday', 'wednessday', 'thursday', 'friday']
 
+print("Starting sound hack")
 while True:
     msg = sock.recv(4096)
     if msg:
